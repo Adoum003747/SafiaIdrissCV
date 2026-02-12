@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Khadidja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Portfolio & CV</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="portfolio.html">Portfolio / CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <article class="cv-container">
+
+    <!-- Contenu CV -->
+    <div class="cv-content">
+        <h2>Profil</h2>
+        <p>
+            Étudiant en Technologies Web à l'ENASTIC, passionné par la
+            conception de sites web modernes et bien structurés.
+        </p>
+
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML5 / CSS3</li>
+            <li>PHP (bases)</li>
+            <li>Conception de sites web statiques</li>
+        </ul>
+
+        <h2>Formations</h2>
+        <p>
+            <strong>ENASTIC</strong><br>
+            Technologies Web – 2025 / 2026
+        </p>
+    </div>
+
+    <!-- Photo -->
+    <div class="cv-photo">
+        <img src="khadidja.jpeg" alt="Photo Khadidja">
+          <h3>Khadidja Bakhit Badjouri</h3>  
+    </div>
+
+</article>
+</section>
+
+<footer>
+    <p> 2026 - Khadidja | MTIC II | ENASTIC</p>
+</footer>
+
+</body>
+</html>
+
+

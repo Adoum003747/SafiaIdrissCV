@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV | Khadidja </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Khadidja Bakhit Badjouri</h1>
+    <p>Étudiant MTIC II</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="portfolio.html">Portfolio / CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h2>Bienvenue sur mon site personnel</h2>
+    <p>Je conçois des sites web simples, modernes et efficaces.</p>
+</section>
+
+<section>
+    <article>
+        <h3>Mon objectif</h3>
+        <p>
+            Développer mes compétences en développement web et créer
+            des solutions numériques utiles et professionnelles.
+        </p>
+    </article>
+</section>
+
+<footer>
+    <p> 2026 - Khadidja| MTIC II | ENASTIC</p>
+</footer>
+
+</body>
+</html>

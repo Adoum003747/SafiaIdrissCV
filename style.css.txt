@@ -1,0 +1,188 @@
+/* --------------------
+   Styles généraux
+--------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --------------------
+   Header
+--------------------- */
+header {
+    background: linear-gradient(135deg, #5b0a62, #5b0a62);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* --------------------
+   Navigation
+--------------------- */
+nav {
+    background-color: #5b0a62;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fbc531;
+}
+
+/* --------------------
+   Sections
+--------------------- */
+section {
+    padding: 40px 20px;
+}
+
+.hero {
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+article {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* --------------------
+   Listes
+--------------------- */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* --------------------
+   Formulaire
+--------------------- */
+form {
+    max-width: 500px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #5b0a62;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a3d62;
+}
+
+/* --------------------
+   Footer
+--------------------- */
+footer {
+    background-color: #5b0a62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* --------------------
+   RESPONSIVE (Mobile)
+--------------------- */
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 30px 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    article {
+        padding: 20px;
+    }
+}
+
+.cv-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.cv-photo img {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cv-photo img {
+        width: 180px;
+    }
+
+    .cv-content ul {
+        text-align: left;
+        display: inline-block;
+    }
+}
